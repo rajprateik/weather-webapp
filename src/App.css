@@ -1,0 +1,33 @@
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+}
+
+.weather-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.weather-item {
+  background-color: #f07305;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
